@@ -1,4 +1,5 @@
 # Wikipedia Search Engine
+![image](https://user-images.githubusercontent.com/76015915/212551748-daeb7d77-30ef-4af4-9ddf-a504e8c74468.png)
 
 # Description
 The aim of this project is about measuring the effectiveness of standard Information Retrieval systems. 
