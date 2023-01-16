@@ -332,7 +332,7 @@ def search_anchor():
         if key in anchor_index.doc_name:
             res.append((key, anchor_index.doc_name[key]))
     # END SOLUTION
-    return jsonify(res[:80])
+    return jsonify(res[:20])
 
 
 @app.route("/get_pagerank", methods=['POST'])
