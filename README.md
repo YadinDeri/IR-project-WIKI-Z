@@ -22,13 +22,13 @@ Measure precision and recall values with the standard information retrieval syst
 # 🚩How to start
 import request
 
-search = request.get(url="http://34.72.166.196/search",params={"query":"hello world"})
+search = request.get(url="http://35.226.44.201:8080/search",params={"query":"hello world"})
 
-search_title = request.get(url="http://34.72.166.196/search_title",params={"query":"hello world"})
+search_title = request.get(url="http://35.226.44.201:8080/search_title",params={"query":"hello world"})
 
-search_body = request.get(url="http://34.72.166.196/search_body",params={"query":"hello world"})
+search_body = request.get(url="http://35.226.44.201:8080/search_body",params={"query":"hello world"})
 
-search_anchor = request.get(url="http://34.72.166.196/search_anchor",params={"query":"hello world"})
+search_anchor = request.get(url="http://35.226.44.201:8080/search_anchor",params={"query":"hello world"})
 
 
 
